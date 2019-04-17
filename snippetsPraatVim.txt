@@ -1,0 +1,68 @@
+snippet crPitch
+To Pitch: 0, 75, 600
+endsnippet
+
+snippet crIntensity
+To Intensity: 100, 0, "yes"
+endsnippet
+
+snippet crTone
+Create Sound as pure tone: "${1:type} ${2:name}", 1, 0, ${2:duration}, 44100, ${3:fundamentalFrequency}, 0.2, 0.01, 0.01
+$0
+endsnippet
+
+snippet eraseGraph
+Erase all
+endsnippet
+
+snippet drSignal
+Draw: 0, 0, 0, 0, "yes", "Curve"
+endsnippet
+
+snippet drPitch
+Draw: 0, 0, 50, 600, "no"
+endsnippet
+
+snippet drSignal
+Draw: 0, 0, 0, 0, "no"
+endsnippet
+
+snippet drInnerBox
+Draw inner box
+endsnippet
+
+snippet setYstep
+Marks left every: 1, $2, "yes", "yes", "no"
+endsnippet
+
+snippet drPitch
+Draw: 0, 0, ${1:range1}, ${2:range2}, "no"
+endsnippet
+
+snippet setOuterView
+Select outer viewport: 0, ${1:horizontal}, ${2:verticalUp}, ${3:verticaldown}
+endsnippet
+
+snippet setLineWidth
+Line width: ${1:1}
+endsnippet
+
+snippet setLineForm
+${1:Solid} line $0
+endsnippet
+
+snippet setY
+Text left: "yes", "$1"
+$0
+endsnippet
+
+snippet if
+if $1
+$2
+endif
+endsnippet
+
+snippet chooseDirectory
+chooseDirectory$: ("${1:ChooseDirectory}")
+endsnippet
+
