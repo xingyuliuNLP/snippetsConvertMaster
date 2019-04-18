@@ -1,5 +1,6 @@
 # snippetsConvertMaster
 Convert text file in which snippets are writed according to certain rules
+
 Convert snippets among Vsc(Visual Studio Code), Atom and Sublime Text.
 
 This page is maintained by
