@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+To Pitch: 0, 75, 600
+]]></content>
+	<description>create pitch object</description>
+	<tabTrigger>crPitch</tabTrigger>
+</snippet>
+

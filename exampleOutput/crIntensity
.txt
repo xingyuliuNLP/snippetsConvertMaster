@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+To Intensity: 100, 0, "yes"
+]]></content>
+	<description>create intensity object</description>
+	<tabTrigger>crIntensity</tabTrigger>
+</snippet>
+

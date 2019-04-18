@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Draw inner box
+]]></content>
+	<description>draw inner box</description>
+	<tabTrigger>drInnerBox</tabTrigger>
+</snippet>
+

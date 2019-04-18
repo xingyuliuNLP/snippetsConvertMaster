@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if $1
+$2
+endif
+]]></content>
+	<description>if</description>
+	<tabTrigger>if</tabTrigger>
+</snippet>
+

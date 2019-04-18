@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Select outer viewport: 0, ${1:horizontal}, ${2:verticalUp}, ${3:verticaldown}
+]]></content>
+	<description>set outer viewport</description>
+	<tabTrigger>setOuterView</tabTrigger>
+</snippet>
+

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Erase all
+]]></content>
+	<description>erase the whole graphics</description>
+	<tabTrigger>eraseGraph</tabTrigger>
+</snippet>
+

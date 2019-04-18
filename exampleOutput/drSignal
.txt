@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Draw: 0, 0, 0, 0, "no"
+]]></content>
+	<description>draw intensity</description>
+	<tabTrigger>drSignal</tabTrigger>
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Text left: "yes", "$1"
+$0
+]]></content>
+	<description>set y label</description>
+	<tabTrigger>setY</tabTrigger>
+</snippet>
+

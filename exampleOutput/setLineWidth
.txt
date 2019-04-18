@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Line width: ${1:1}
+]]></content>
+	<description>set line width</description>
+	<tabTrigger>setLineWidth</tabTrigger>
+</snippet>
+

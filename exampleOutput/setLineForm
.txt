@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:Solid} line $0
+]]></content>
+	<description>set line form</description>
+	<tabTrigger>setLineForm</tabTrigger>
+</snippet>
+

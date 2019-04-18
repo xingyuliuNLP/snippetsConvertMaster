@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Marks left every: 1, $2, "yes", "yes", "no"
+]]></content>
+	<description>set Y step</description>
+	<tabTrigger>setYstep</tabTrigger>
+</snippet>
+

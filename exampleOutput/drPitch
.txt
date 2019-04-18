@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Draw: 0, 0, ${1:range1}, ${2:range2}, "no"
+]]></content>
+	<description>draw pitch</description>
+	<tabTrigger>drPitch</tabTrigger>
+</snippet>
+

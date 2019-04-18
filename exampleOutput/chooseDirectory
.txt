@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+chooseDirectory$: ("${1:ChooseDirectory}")
+]]></content>
+	<description>ask the user to choose a directory</description>
+	<tabTrigger>chooseDirectory</tabTrigger>
+</snippet>
+
