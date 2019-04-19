@@ -26,6 +26,9 @@ There is an example file in [exampleInput folder](https://github.com/xingyuliuNL
 5. The whole file must be end with a hash sign in the last line
 
 You could also classify your snippets with a title marked by 3 hashes in the first place
+*Attention*
+
+If there is a prompt information after dollar sign, the information should be joined together  
 ```
 ### object creation
 # create pitch object
@@ -37,9 +40,7 @@ setLineForm
 $1:solidLine $0
 #
 ```
-*Attention*
 
-If there is a prompt information after dollar sign, the information should be joined together
 
 * Convert processing in command line
 1. Change the current working directory to your local project
