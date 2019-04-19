@@ -32,6 +32,7 @@ $1:SolidLine $0
 * Convert processing in command line
 1. Change the current working directory to your local project
 2. List your arguments of convert file name, input file name, editor option after "python"
+
 	 By now, there are 4 editor options: <kbd>-vsc</kbd> for Visual Studio Code, <kbd>-sublime</kbd> for Sublime Text, <kbd>-atom</kbd> for Atom and if you want, <kbd>-all</kbd> for all these above.
    For example:
 	 ```
