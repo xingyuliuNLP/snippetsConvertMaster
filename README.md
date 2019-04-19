@@ -10,4 +10,18 @@ This page is maintained by
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+## Why
+
+
 ## How to use
+### Convert your text file for Vsc/Atom/Sublime Text
+#### Write your input file according to the following rules
+There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
+```
+# print the content between brackets
+print
+print($1)
+$0 
+#
+```
+#### Convert processing in command line
