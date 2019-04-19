@@ -28,7 +28,7 @@ There is an example file in [exampleInput folder](https://github.com/xingyuliuNL
 You could also classify your snippets with a title marked by 3 hashes in the first place
 *Attention*
 
-If there is a prompt information after dollar sign, the information should be joined together  
+If there is a prompt information after dollar sign, the information should be joined together
 ```
 ### object creation
 # create pitch object
@@ -46,7 +46,15 @@ $1:solidLine $0
 1. Change the current working directory to your local project
 2. List your arguments of convert file name, input file name, editor option after "python"
 
-	 By now, there are 4 editor options: <kbd>-vsc</kbd> for Visual Studio Code, <kbd>-sublime</kbd> for Sublime Text, <kbd>-atom</kbd> for Atom and if you want, <kbd>-all</kbd> for all these above.
+	 By now, there are 4 editor options:
+
+	 <kbd>-vsc</kbd> for Visual Studio Code,
+
+	 <kbd>-sublime</kbd> for Sublime Text,
+
+	 <kbd>-atom</kbd> for Atom and if you want,
+
+	 <kbd>-all</kbd> for all these above.
 
 	 For example:
 	 ```
