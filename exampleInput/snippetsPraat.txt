@@ -12,8 +12,8 @@ $0
 ### graphics
 # erase the whole graphics
 eraseGraph
-Erase all 
-# draw a sound signal 
+Erase all
+# draw a sound signal
 drSignal
 Draw: 0, 0, 0, 0, "yes", "Curve"
 # draw pitch
@@ -39,7 +39,7 @@ setLineWidth
 Line width: $1:1
 # set line form
 setLineForm
-$1:Solid line $0
+$1:SolidLine $0
 # set y label
 setY
 Text left: "yes", "$1"

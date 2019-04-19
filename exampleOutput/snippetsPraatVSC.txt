@@ -87,7 +87,7 @@
 "set line form": {
 	"prefix": "setLineForm",
 	"body": [
-		"${1:Solid} line $0",
+		"${1:SolidLine} $0",
 	],
 	"description": "set line form"
 },

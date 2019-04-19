@@ -14,14 +14,44 @@ This page is maintained by
 
 
 ## How to use
-### Convert your text file for Vsc/Atom/Sublime Text
-#### Write your input file according to the following rules
+### Create a snippet text file and convert it for Vsc/Atom/Sublime Text
+* Write your input text file according to the following rules
 There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
+
 ```
-# print the content between brackets
-print
-print($1)
-$0 
+### object creation
+# create pitch object
+crPitch
+To Pitch: 0, 75, 600
+### graphics
+# set line form
+setLineForm
+$1:SolidLine $0
 #
 ```
-#### Convert processing in command line
+* Convert processing in command line
+1. Change the current working directory to your local project
+2. List your arguments of convert file name, input file name, editor option after "python"
+	 By now, there are 4 editor options: <kbd>-vsc</kbd> for Visual Studio Code, <kbd>-sublime</kbd> for Sublime Text, <kbd>-atom</kbd> for Atom and if you want, <kbd>-all</kbd> for all these above.
+   For example:
+	 ```
+   $python snippetsConvertMasterV4.py snippetsPraat.txt -vsc
+	 ```
+Then a text file for Vsc will be exported like below
+```
+{
+"create pitch object": {
+	"prefix": "crPitch",
+	"body": [
+		"To Pitch: 0, 75, 600",
+	],
+	"description": "create pitch object"
+},
+"set line form": {
+	"prefix": "setLineForm",
+	"body": [
+		"${1:SolidLine} $0"
+},
+}
+
+```
