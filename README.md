@@ -29,7 +29,7 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 
 	There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
 
-	* Every snippet begins with a hash sign and a space <kbd>#  </kbd>
+	* Every snippet begins with a hash sign and a space <kbd>#&nbsp;</kbd>
 	* Description: append snippet's description just after the hash sign and space in the same line
 	* Prefix: append snippet's prefix at the next line of description
 	* Body: append snippet's main content from the next line of prefix
