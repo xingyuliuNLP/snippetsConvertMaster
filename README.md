@@ -19,14 +19,14 @@ Although there are tons of online snippet converters, they can only convert ONE 
 Now you could use our snippetsConvertMaster to convert all your snippets at once used in Vsc, Sublime Text and Atom.
 
 ## How to use
-Download <kbd>snippetsMasterV4.py</kbd>
+Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/snippetsMasterV4.py)
 
 ### Create a snippet text file and convert it for Vsc/Atom/Sublime Text
 1. Write your input text file according to the following rules
 
-You could put all of your snippets in this input file and convert them all to the output file.
+	You could put all of your snippets in this input file and convert them all to the output file.
 
-		There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
+	There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
 		* Every snippet begins with a hash sign and a space <kbd># </kbd>
 		* Description: append snippet's description just after the hash sign and space in the same line
 		* Prefix: append snippet's prefix at the next line of description
@@ -34,9 +34,9 @@ You could put all of your snippets in this input file and convert them all to th
 		* The whole file must be end with a hash sign in the last line
 
 		You could also classify your snippets with a title marked by 3 hashes in the first place
-		*Attention*
+	*Attention*
 
-		If there is a prompt information after dollar sign, the information should be joined together
+	If there is a prompt information after dollar sign, the information should be joined together
 		```
 		### object creation
 		# create pitch object
@@ -68,21 +68,20 @@ You could put all of your snippets in this input file and convert them all to th
 	 ```
    $python snippetsConvertMasterV4.py snippetsPraat.txt -vsc
 	 ```
-		Then a text file for Vsc will be exported like below
-		```
-		{
-		"create pitch object": {
-			"prefix": "crPitch",
-			"body": [
-				"To Pitch: 0, 75, 600",
-			],
-			"description": "create pitch object"
-		},
+	 Then a text file for Vsc will be exported like below
+	 ```
+	 {
+	 "create pitch object": {
+		"prefix": "crPitch",
+		"body": [
+			"To Pitch: 0, 75, 600",
+		],
+		"description": "create pitch object"
+	 	},
 		"set line form": {
 			"prefix": "setLineForm",
 			"body": [
 				"${1:solidLine} $0"
 		},
-		}
-
-		```
+	 }
+	 ```
