@@ -41,6 +41,8 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 
 	If there is a prompt information after dollar sign, the information should be joined together
 
+	<kbd>$1:solidLine</kbd> instead of <kbd>$1: solid line</kbd> >
+
 		```
 		### object creation
 		# create pitch object
@@ -72,22 +74,22 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 	 ```
    $python snippetsConvertMasterV4.py snippetsPraat.txt -vsc
 	 ```
-Then a text file for Vsc will be exported like below
-```
-{
-"create pitch object": {
-	"prefix": "crPitch",
-	"body": [
-		"To Pitch: 0, 75, 600",
-	],
-	"description": "create pitch object"
-},
-"set line form": {
-	"prefix": "setLineForm",
-	"body": [
-		"${1:solidLine} $0",
-	],
-	"description": "set line form"
-}
-}
-```
+	Then a text file for Vsc will be exported like below
+	```
+	{
+	"create pitch object": {
+		"prefix": "crPitch",
+		"body": [
+			"To Pitch: 0, 75, 600",
+		],
+		"description": "create pitch object"
+	},
+	"set line form": {
+		"prefix": "setLineForm",
+		"body": [
+			"${1:solidLine} $0",
+		],
+		"description": "set line form"
+	}
+	}
+	```
