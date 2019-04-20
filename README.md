@@ -39,17 +39,17 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 
 	**Attention** If there is a prompt information after dollar sign, the information should be joined together. Ex. <kbd>$1:solidLine</kbd> instead of <kbd>$1: solid line</kbd>
 
-		```
-		### object creation
-		# create pitch object
-		crPitch
-		To Pitch: 0, 75, 600
-		### graphics
-		# set line form
-		setLineForm
-		$1:solidLine $0
-		#
-		```
+	```
+	### object creation
+	# create pitch object
+	crPitch
+	To Pitch: 0, 75, 600
+	### graphics
+	# set line form
+	setLineForm
+	$1:solidLine $0
+	#
+	```
 
 
 2. Convert processing in command line
