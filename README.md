@@ -33,10 +33,11 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 		* Body: append snippet's main content from the next line of prefix
 		* The whole file must be end with a hash sign in the last line
 
-		You could also classify your snippets with a title marked by 3 hashes in the first place
+	You could also classify your snippets with a title marked by 3 hashes in the first place
 	*Attention*
 
 	If there is a prompt information after dollar sign, the information should be joined together
+
 		```
 		### object creation
 		# create pitch object
@@ -70,18 +71,19 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 	 ```
 	 Then a text file for Vsc will be exported like below
 	 ```
-	 {
-	 "create pitch object": {
-		"prefix": "crPitch",
-		"body": [
-			"To Pitch: 0, 75, 600",
-		],
-		"description": "create pitch object"
-	 	},
+		{
+		"create pitch object": {
+			"prefix": "crPitch",
+			"body": [
+				"To Pitch: 0, 75, 600",
+			],
+			"description": "create pitch object"
+		},
 		"set line form": {
 			"prefix": "setLineForm",
 			"body": [
 				"${1:solidLine} $0"
 		},
-	 }
-	 ```
+		}
+
+		```
