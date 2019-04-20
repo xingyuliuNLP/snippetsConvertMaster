@@ -29,19 +29,15 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 
 	There is an example file in [exampleInput folder](https://github.com/xingyuliuNLP/snippetsConvertMaster/blob/master/exampleInput/snippetsPraat.txt)
 
-	* Every snippet begins with a hash sign and a space <kbd># </kbd>
+	* Every snippet begins with a hash sign and a space <kbd>#  </kbd>
 	* Description: append snippet's description just after the hash sign and space in the same line
 	* Prefix: append snippet's prefix at the next line of description
 	* Body: append snippet's main content from the next line of prefix
-	* The whole file must be end with a hash sign in the last line
+	* The whole file must be end with a hash sign <kbd>#</kbd>  in the last line
 
-	You could also classify your snippets with a title marked by 3 hashes in the first place
+	You could also classify your snippets with a title marked by 3 hashes <kbd>###</kbd>  in the first place
 
-	*Attention*
-
-	If there is a prompt information after dollar sign, the information should be joined together
-
-	<kbd>$1:solidLine</kbd> instead of <kbd>$1: solid line</kbd> >
+	**Attention** If there is a prompt information after dollar sign, the information should be joined together. Ex. <kbd>$1:solidLine</kbd> instead of <kbd>$1: solid line</kbd>
 
 		```
 		### object creation
@@ -66,9 +62,9 @@ Download [snippetsMasterV4.py](https://github.com/xingyuliuNLP/snippetsConvertMa
 
 	 <kbd>-sublime</kbd> for Sublime Text,
 
-	 <kbd>-atom</kbd> for Atom and if you want,
+	 <kbd>-atom</kbd> for Atom,
 
-	 <kbd>-all</kbd> for all these above.
+	 <kbd>-all</kbd> for all these above, if you want.
 
 	 For example:
 	 ```
