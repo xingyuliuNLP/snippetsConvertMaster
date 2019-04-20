@@ -158,7 +158,7 @@ def writeVsc(filename):
                     bodyContent = [' '] + bodyContent
                 existenceOfSymbols = recordSymbols(bodyContent)
                 removedSymbols = removeSymbols(bodyContent)
-                transformedBody = transformBody(bodyContent)
+                transformedBody = transformBody(removedSymbols)
                 fileOutput1.write('\t\t\"' + transformedBody + '\",\n')
         # add comma after brackets to separate snippets except last one
         fileOutput1.write('\t' + '],' + '\n')
@@ -183,7 +183,7 @@ def writeSublime():
                         bodyContent = contents[n].split()
                         existenceOfSymbols = recordSymbols(bodyContent)
                         removedSymbols = removeSymbols(bodyContent)
-                        transformedBody = transformBody2(bodyContent)
+                        transformedBody = transformBody2(removedSymbols)
                         fileOutput2.write(transformedBody + "\n")
                 fileOutput2.write(']]></content>\n')
                 # transform description and prefix
@@ -213,7 +213,7 @@ def writeAtom(fileOutput3):
                 bodyContent = contents[n].split()
                 existenceOfSymbols = recordSymbols(bodyContent)
                 removedSymbols = removeSymbols(bodyContent)
-                transformedBody = transformBody2(bodyContent)
+                transformedBody = transformBody2(removedSymbols)
                 fileOutput3.write('\t\t' + transformedBody + '\n')
         fileOutput3.write('\t"""\n\n')
 
@@ -232,7 +232,7 @@ def writeVim(fileOutput4):
                 bodyContent = contents[n].split()
                 existenceOfSymbols = recordSymbols(bodyContent)
                 removedSymbols = removeSymbols(bodyContent)
-                transformedBody = transformBody2(bodyContent)
+                transformedBody = transformBody2(removedSymbols)
                 fileOutput4.write(transformedBody + '\n')
         fileOutput4.write('endsnippet\n\n')
 
