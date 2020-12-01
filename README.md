@@ -8,8 +8,8 @@ Convert snippets among Vsc(Visual Studio Code), Atom and Sublime Text.
 
 This page is maintained by
 
-* [Xiaoou WANG (phd student in speech science, master student in natural language processing)](http://xiaoouwang.github.io)
-* [Xingyu LIU (passionate nlp lover)](https://github.com/xingyuliuNLP)
+* [Xiaoou WANG (master student in natural language processing)](http://xiaoouwang.github.io)
+* [Xingyu LIU (master student in natural language processing)](https://github.com/xingyuliuNLP)
 
 
 
